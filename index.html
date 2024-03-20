@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Website</title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+    .square {
+        width: 400px;
+        height: 1300px;
+        border: 2px solid black;
+        position: relative;
+      margin-bottom:20px;
+    }
+    .company-name {
+        background-color:purple;
+        color: white;
+        padding: 10px;
+        position: absolute;
+        top:10px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+  
+   .company-info {
+        text-align: center;
+        margin-top: 60px;
+        font-size: 10px;
+}
+  .company-info::after {
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 2px dashed purple;
+    position: absolute;
+    left:10px;
+    margin-top: 20px;
+}
+  .team-heading {
+        text-align: center;
+        color: black;
+        margin-top: 30px;
+    }
+  .team-block {
+        background-color: purple;
+        color: white;
+        padding:5px;
+        left: 40%;
+        border-radius: 5px;
+        text-align: center;
+        margin-top:5px;
+        max-width:240px;
+        margin: 0 auto; 
+    }
+  .employees {
+        display: flex;
+        justify-content: center;
+        flex:wrap;
+        margin-top:30px;
+    }
+  .employee {
+        margin: 10px;
+        text-align: center;
+  }
+    .employee-photo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      background-image: url(https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-High-Quality-Image.png);
+        background-size: cover;
+        background-position: center;
+        margin-right: 20px;
+        background-color: #ccc;
+        margin-right: 20px;
+    }
+    .employee-name {
+        font-weight:bold;
+      margin-top: 5px;
+      }
+      .employee-title {
+        font-style: italic;
+    }
+  .sales-marketing-block {
+        background-color: purple;
+        color: white;
+        padding:5px;
+        border-radius:5px;
+        text-align: center;
+        margin-top:20px;
+        max-width:210px;
+        margin: 0 auto;
+    }
+
+  
+  
+</style>
+</head>
+<body>
+    <div class="square">
+        <div class="company-name">COMPANY NAME</div>
+      <div class="company-info">
+        Welcome toVeriTech where a dedicated team of professionals work together to bring innovation,creativity and expertise to software industry get to know the individuals who make our company thive.
+        </div>
+      <div>
+      
+        <h3 class="team-heading">Meet Our Team</h3>
+        <div class="team-block">
+            Leadership / Management Team
+        </div>
+      <div class="employees">
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">John Doe</div>
+              <div class="employee-title">Founder/CEO</div>
+            </div>
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">Jane Smith</div>
+              <div class="employee-title">Founder/CEO</div>
+            </div>
+        </div>
+        <div class="employees">
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">Emily Johnson</div>
+              <div class="employee-title">VP,Developement & Growth</div>
+            </div>
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">James Brown</div>
+              <div class="employee-title">VP,Sales & Marketing</div>
+            </div>
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">Jessica Parker</div>
+              <div class="employee-title">VP,Finance & Operation</div>
+           
+            </div>
+        </div>
+    </div>
+        <div class="team-block">
+            Development Team
+        </div>
+      <div class="employees">
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">John Doe</div>
+              <div class="employee-title">Team Lead,SE</div>
+           
+            </div>
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">Jane Smith</div>
+              <div class="employee-title">Software Engineer</div>
+           
+            </div>
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">Emily Johnson</div>
+               <div class="employee-title">Software Engineer</div>
+            </div>
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">James Brown</div>
+               <div class="employee-title">Software Engineer</div>
+            </div>
+        </div>
+        <div class="employees">
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">Pranav Tiwari</div>
+               <div class="employee-title">Software Engineer</div>
+            </div>
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name"> </div>
+               <div class="employee-title">Software Engineer</div>
+            </div>
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">Sarah Brown</div>
+               <div class="employee-title">Software Engineer</div>
+            </div>
+        </div>
+      <div class="team-section">
+    </div>
+      <div class="sales-marketing-block">
+            Sales and Marketing Team
+        </div>
+      <div class="employees">
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">Rohit Sharma</div>
+               <div class="employee-title">Team Lead</div>
+            </div>
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">Vikram Gupta</div>
+               <div class="employee-title">Sales Officer</div>
+            </div>
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">Arjun Desai</div>
+               <div class="employee-title">Sales Officer</div>
+            </div>
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">Kritika Shah</div>
+               <div class="employee-title">Sales Officer</div>
+            </div>
+        </div>
+        <div class="employees">
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name"> Akash Mehra</div>
+               <div class="employee-title">Marketing Officer</div>
+            </div>
+          <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">Rahul Joshi</div>
+             <div class="employee-title">Marketing Officer</div>
+            </div>
+            <div class="employee">
+                <div class="employee-photo"></div>
+                <div class="employee-name">Arnav Gupta</div>
+               <div class="employee-title">Marketing Officer</div>
+           </div>
+        </div>
+    </div>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equilateral Triangle</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="triangle"></div>
+<div class="guidon-triangle"></div> <!-- Guidon shape triangle -->
+</body>
+</html>
+
+  
+</body>
+</html>
+
+
